@@ -94,13 +94,11 @@ export default function Agenda() {
     {
       activity: 'Welcome Address',
       speakers: 'Deepa Nair, \n6D Technologies | HR Evolve Member',
-      topic: '',
       type: 'admin'
     },
     {
       activity: 'Inaugural Function',
-      speakers: '• Sushant\nCEO, Infoparks Kerala & Cyberpark Kozhikode\n• Rajesh Nair\nPartner, EY\n• Sujas Ali\nFounder ,Aabasoft\n• Sunil Balakrishnan\nChief Values Officer(CVO) | Global Head',
-      topic: '',
+      speakers: '• Sushant\nCEO, Infoparks Kerala & Cyberpark Kozhikode\n• Rajesh Nair\nPartner, EY\n• Sujas Ali\nFounder ,Aabasoft\n• Sunil Balakrishnan\nChief Values Officer(CVO) | Global Head,\nUST GLOBAL\n• Dr. Thomas George K\nChairman, LEAD College',
       type: 'admin'
     },
     // {
@@ -141,9 +139,15 @@ export default function Agenda() {
     // },
     {
       activity: 'Panel Discussion',
-      speakers: '• Sujith Unni\nConsultant,SS Consultant\n• Jilu Joseph\nCEO,Webandcradts\n• Devika Chandrasekharan\nFounder,Fuselage Innovations Pvt Ltd\n• Sunil Balakrishnan\nChief Values Officer(CVO) | Global Head,UST Global',
-      topic: 'Balancing innovation, cost, and culture',
+      speakers: '• Sujith Unni\nConsultant,SS Consultant\n• Jilu Joseph\nCEO,Webandcrafts\n• Devika Chandrasekharan\nFounder,Fuselage Innovations Pvt Ltd\n• Sunil Balakrishnan\nChief Values Officer(CVO) | Global Head,\nUST Global',
+      topic: 'Balancing Innovation, Cost, and Culture',
       type: 'panel'
+    },
+    {
+      activity: 'Special Address',
+      speakers: ' Dr.Thomas George K,\nDirector, LEAD College (Autonomous)',
+      topic: '',
+      type: 'session'
     },
     {
       activity: 'Mentalist',
@@ -166,7 +170,7 @@ export default function Agenda() {
     {
       activity: 'Panel Discussion',
       speakers: '• Jithin Chakkalakkal\nSenior Manager - HR, Reflections Info Systems\n• Ajish MJ\nVice President People and Culture, NeST Digital\n• Sreeni S Warrier\nFounder & Chief Architect, Mind Architects\n• Jeswin Jose\nSenior Associate Director HR, Big4\n•Rasha kutty\nCo-Founder, EmpathyUniversity',
-      topic: 'Moving from transactional to transformational HR',
+      topic: 'Moving from Transactional to Transformational HR',
       type: 'panel'
     },
   ];
@@ -235,7 +239,7 @@ export default function Agenda() {
                   lineHeight: '1.4em'
                 }}
               >
-                21th February 2026
+                21st February 2026
               </h3>
             </div>
           </motion.div>
@@ -450,7 +454,7 @@ export default function Agenda() {
                     </motion.div> */}
                   </>
                 )}
-                {item.topic === 'Balancing innovation, cost, and culture' && (
+                {item.topic === '' && (
                   <>
                     <motion.div
                       className="bg-black/40 backdrop-blur-sm border border-white/20 rounded-lg p-3 sm:p-4 my-6 sm:my-8 text-center cursor-pointer group relative overflow-hidden"
@@ -595,7 +599,7 @@ export default function Agenda() {
           </div>
         </div>
 
-        <div className="text-center text-white/70 text-lg mt-4">*Last updated on 15th April 2025</div>
+        <div className="text-center text-white/70 text-lg mt-4">*Last updated on 17th February 2026</div>
 
         {/* Ticker Section with SOLD OUT marquee */}
         <div className='overflow-hidden'>

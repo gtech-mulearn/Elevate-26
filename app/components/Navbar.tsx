@@ -149,8 +149,8 @@ export default function Navbar() {
           transition={{ duration: 0.3 }}
         >
           <div className="rounded-2xl p-6 shadow-2xl mx-auto max-w-md" style={{
-            background: 'rgba(255, 255, 255, 0.2)',
-            backdropFilter: 'blur(40px)',
+            background: 'rgba(0, 0, 0, 0.7)',
+            backdropFilter: 'blur(100px)',
             WebkitBackdropFilter: 'blur(40px)'
           }}>
             <ul className="space-y-4">
@@ -162,7 +162,7 @@ export default function Navbar() {
                       e.preventDefault();
                       handleClick(item.href);
                     }}
-                    className={`block text-gray-700 hover:text-cyan-600 transition-colors duration-300 font-medium py-2 px-4 rounded-lg hover:bg-cyan-100/50 ${activeSection === item.href ? 'text-cyan-600 bg-cyan-100/50' : ''
+                    className={`block text-white hover:text-cyan-600 transition-colors duration-300 font-medium py-2 px-4 rounded-lg hover:bg-cyan-100/50 ${activeSection === item.href ? 'text-cyan-600 bg-cyan-100/50' : ''
                       }`}
                   >
                     {item.name}

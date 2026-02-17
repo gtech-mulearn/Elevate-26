@@ -34,14 +34,6 @@ export default function Hero() {
             Presents
           </h2>
         </motion.div>
-        <motion.h2
-          className="mt-14 text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-gray-800/90 leading-tight mb-1 sm:mb-2 tracking-wider"
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
-        >
-          HR CONCLAVE
-        </motion.h2>
         <motion.h1
           className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-gray-900 mb-2 sm:mb-0 leading-tight"
           initial={{ opacity: 0, y: 40 }}
@@ -76,6 +68,14 @@ export default function Hero() {
         >
           DESIGNING THE INTELLIGENT, HUMAN-CENTERED ENTERPRISE
         </motion.h3>
+        <motion.h2
+          className="mt-4 text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-gray-800/90 leading-tight mb-1 sm:mb-2 tracking-wider"
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
+        >
+          HR CONCLAVE
+        </motion.h2>
         <motion.div
           className="mb-3 sm:mb-5 md:mb-7"
           initial={{ opacity: 0, y: 20 }}
@@ -180,7 +180,7 @@ export default function Hero() {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6, delay: 0.8, ease: "easeOut" }}
         >
-          21<sup className="text-lg sm:text-xl">th</sup> FEBRUARY 2026
+          21<sup className="text-lg sm:text-xl">st</sup> FEBRUARY 2026
         </motion.p>
 
         {/* HR Conclave text */}
