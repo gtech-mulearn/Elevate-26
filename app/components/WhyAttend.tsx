@@ -5,57 +5,42 @@ export default function WhyAttend() {
   const themes = [
     {
       title: '',
-      subtitle: 'Shaping the Future: Leading through the Human–AI Nexus',
-      description: 'Harnessing Artificial Intelligence to Humanize the Workplace. AI is no longer on the horizon—it\'s here, redefining every facet of HR from talent acquisition to workforce planning. This keynote explores the duality of AI\'s impact: automating routine tasks while augmenting human intelligence, and how enterprises can balance efficiency with empathy.',
+      subtitle: 'Culture as Infrastructure — Not Philosophy',
+      description: 'Modern organizations are discovering that culture directly influences execution speed, innovation adoption, and talent sustainability. Culture is no longer a narrative; it is an operational system that determines how work gets done.',
       takeaways: [
-        'How AI transforms core HR functions without losing the human touch',
-        'Frameworks to integrate \'human-in-the-loop\' decision-making',
-        'Balancing innovation, fairness, and trust in AI-enabled HR systems',
-        'The evolving role of HR as an AI strategist, not just a user',
+        'Converting values into performance-driving behaviors',
+        'Understanding trust, bias, and influence in decision-making',
+        'Designing cultures that support speed and adaptability',
       ],
     },
     {
       title: '',
-      subtitle: 'Learning Rewired: The Skill-Shelf-Life Crisis Management',
-      description: 'Redefining Upskilling and Learning Agility for a Rapidly Evolving Workforce. The shelf life of skills has dropped to less than three years—yet the appetite for learning must be lifelong. This session explores how organizations can rewire learning ecosystems to build adaptive, self-directed, and tech-enabled skill cultures.',
+      subtitle: 'The Great Reinvention of HR — From Process Owner to Enterprise Partner',
+      description: 'As automation absorbs administrative work, HR must redefine itself around advisory capability, workforce design, and business alignment.',
       takeaways: [
-        'Designing learning architectures powered by AI and predictive analytics',
-        'Moving from training programs to personalized learning journeys',
-        'Approaches to measure learning agility and business impact',
+        'Identifying legacy HR practices that limit relevance',
+        'Redesigning HR roles toward consulting, analytics, and change leadership',
+        'Building HR operating models aligned with enterprise outcomes',
       ],
     },
     {
       title: '',
-      subtitle: 'The Talent Reset: Repurposing People for the New Work Order',
-      description: 'Strategic Redeployment and Human Infrastructure for the Future of Work. As automation evolves, the focus shifts from redundancy to redeployment. Organizations must cultivate \'talent fluidity\'—the ability to move people where the value moves.',
+      subtitle: 'Workforce Economics & Capability Design in an AI-Normal World',
+      description: 'The conversation is shifting from automation to productivity. Organizations must rethink how talent is deployed, reskilled, and structured to create value.',
       takeaways: [
-        'How to build internal talent marketplaces and reskilling pathways',
-        'Identifying adjacent skills and career pivot strategies',
-        'Role of AI in predicting future skill demand and workforce readiness',
-        'HR as the architect of a dynamic, borderless workforce',
+        'Linking talent strategy with financial and operational performance',
+        'Designing agile organization structures',
+        'Managing cost pressures while sustaining innovation capacity'
       ],
     },
     {
       title: '',
-      subtitle: 'AI + HI: Creating a Future-Ready HR Function',
-      description: 'Discover how human intelligence and artificial intelligence can work hand in hand to build a smarter, more agile HR function. Learn about practical AI tools, the HR adoption journey, and real-world use cases balancing augmentation and automation — along with insights on prompt engineering, governance, and change management.',
+      subtitle: 'Trust, Empathy, and Governance in a Tech-Accelerated Workplace',
+      description: 'With algorithms influencing decisions, HR must ensure transparency, fairness, and human-centered leadership remain intact.',
       takeaways: [
-        'Understanding AI tools and tech in HR',
-        'The AI Adoption Journey for HR',
-        'Augmentation vs. Automation: Practical Use Cases',
-        'Prompt Engineering & Maximizing AI Tools',
-        'Corporate AI Governance and Change Management',
-      ],
-    },
-    {
-      title: '',
-      subtitle: 'The Future of Work – Bridging the Human–AI Continuum-Panel Discussion',
-      description: 'A dialogue among People Leaders from leading technology services organizations, examining workforce transformation challenges across skill obsolescence, AI ethics, and organizational agility.',
-      takeaways: [
-        'Aligning business and talent priorities for AI-led transformation',
-        'Designing human networks for learning and innovation',
-        'Building resilience amid skill disruption',
-        'Bridging the human–machine interface through empathy and design thinking',
+        'Navigating legal and ethical implications of digital workplaces',
+        'Building employee trust in technology-enabled environments',
+        'Creating governance frameworks that enable innovation responsibly',
       ],
     },
   ];
@@ -70,7 +55,7 @@ export default function WhyAttend() {
             className="text-center mb-4 sm:mb-6"
             style={{
               fontFamily: '"Sora", "Sora Placeholder", sans-serif',
-              fontSize: 'clamp(22px, 5vw, 28px)',
+              fontSize: 'clamp(28px, 5vw, 36px)',
               fontWeight: 600,
               color: 'white'
             }}
@@ -81,9 +66,9 @@ export default function WhyAttend() {
           >
             What You&apos;ll Learn
           </motion.h3>
-          {/* Grid Layout optimized for 5 containers - All Equal Height */}
-          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3 sm:gap-4">
-            {themes.slice(0, 3).map((theme, index) => (
+          {/* Grid Layout optimized for 2x2 layout - All Equal Height */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-4">
+            {themes.map((theme, index) => (
               <motion.div 
                 key={index}
                 className="bg-black/40 backdrop-blur-sm border border-white/20 rounded-lg p-3 sm:p-4 flex flex-col"
@@ -192,124 +177,6 @@ export default function WhyAttend() {
               </motion.div>
             ))}
           </div>
-
-          {/* Bottom Row for last 2 containers - Equal Height */}
-          <motion.div 
-            className="grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-4 mt-4 sm:mt-6 max-w-4xl mx-auto"
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.4 }}
-          >
-            {themes.slice(3, 5).map((theme, index) => (
-              <motion.div 
-                key={index + 3}
-                className="bg-black/40 backdrop-blur-sm border border-white/20 rounded-lg p-3 sm:p-4 flex flex-col"
-                style={{ 
-                  borderRadius: '12px',
-                  background: 'rgba(0, 0, 0, 0.4)',
-                  backdropFilter: 'blur(10px)',
-                  border: '1px solid rgba(255, 255, 255, 0.2)',
-                  minHeight: '380px'
-                }}
-                initial={{ opacity: 0, y: 50 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ 
-                  duration: 0.6, 
-                  delay: 0.6 + (index * 0.2), 
-                  ease: "easeOut" 
-                }}
-                whileHover={{ 
-                  y: -10, 
-                  transition: { duration: 0.3 } 
-                }}
-              >
-                {/* Theme Number and Title */}
-                <div className="mb-3">
-                  <h4 
-                    className="mb-2"
-                    style={{
-                      fontFamily: '"Sora", "Sora Placeholder", sans-serif',
-                      fontSize: '12px',
-                      fontWeight: 600,
-                      color: 'rgb(168, 85, 247)',
-                      textTransform: 'uppercase',
-                      letterSpacing: '0.05em'
-                    }}
-                  >
-                    {theme.title}
-                  </h4>
-                  <h5 
-                    className="mb-3"
-                    style={{
-                      fontFamily: '"Sora", "Sora Placeholder", sans-serif',
-                      fontSize: 'clamp(16px, 4vw, 18px)',
-                      fontWeight: 600,
-                      color: 'white',
-                      lineHeight: '1.3em'
-                    }}
-                  >
-                    {theme.subtitle}
-                  </h5>
-                </div>
-
-                {/* Description */}
-                <div className="mb-3" style={{ minHeight: '90px' }}>
-                  <p 
-                    style={{
-                      fontFamily: '"Sora", "Sora Placeholder", sans-serif',
-                      fontSize: 'clamp(12px, 3vw, 13px)',
-                      color: 'rgba(255, 255, 255, 0.8)',
-                      lineHeight: '1.4em'
-                    }}
-                  >
-                    {theme.description}
-                  </p>
-                </div>
-
-                {/* Key Takeaways */}
-                <div className="flex flex-col">
-                  <h6 
-                    className="mb-2"
-                    style={{
-                      fontFamily: '"Sora", "Sora Placeholder", sans-serif',
-                      fontSize: 'clamp(13px, 3.5vw, 14px)',
-                      fontWeight: 600,
-                      color: 'rgb(239, 200, 38)'
-                    }}
-                  >
-                    Key {index === 1 ? 'Discussion Points' : 'Takeaways'}:
-                  </h6>
-                  <div className="space-y-1.5" style={{ minHeight: '120px' }}>
-                    {theme.takeaways.slice(0, 4).map((takeaway, idx) => (
-                      <div key={idx} className="flex items-start gap-2">
-                        <span 
-                          className="flex-shrink-0"
-                          style={{ 
-                            color: 'rgb(168, 85, 247)',
-                            fontSize: '10px'
-                          }}
-                        >
-                          •
-                        </span>
-                        <span 
-                          style={{
-                            fontFamily: '"Sora", "Sora Placeholder", sans-serif',
-                            fontSize: 'clamp(11px, 2.8vw, 12px)',
-                            color: 'rgba(255, 255, 255, 0.9)',
-                            lineHeight: '1.3em'
-                          }}
-                        >
-                          {takeaway}
-                        </span>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              </motion.div>
-            ))}
-          </motion.div>
         </div>
       </div>
 

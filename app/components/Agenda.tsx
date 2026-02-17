@@ -99,7 +99,7 @@ export default function Agenda() {
     },
     {
       activity: 'Inaugural Function',
-      speakers: '• Sushant / AnilSujas,Times of India\n• 2nd Sponsor - Lead college\n• Nest - CEO\n• Rajesh Nair\n• Sunil Balakrishnan',
+      speakers: '• Sushant\nCEO, Infoparks Kerala & Cyberpark Kozhikode\n• Rajesh Nair\nPartner, EY\n• Sujas Ali\nFounder ,Aabasoft\n• Sunil Balakrishnan\nChief Values Officer(CVO) | Global Head',
       topic: '',
       type: 'admin'
     },
@@ -111,8 +111,20 @@ export default function Agenda() {
     // },
     {
       activity: 'Power Talk',
-      speakers: 'Sam R Thomas',
+      speakers: 'Sreekanth Arimanithaya\nChief Executive Officer, Xarpie Labs',
+      topic: 'Culture Beyond Policies',
+      type: 'session'
+    },
+    {
+      activity: 'Power Talk',
+      speakers: 'Sam R Thomas\nAssociate Director EY GDS India',
       topic: 'What HR must unlearn to embrace AI',
+      type: 'session'
+    },
+    {
+      activity: 'Power Talk',
+      speakers: 'Aravind Warrier\nLead People Partner & Culture | Digital & IT ,Volvo Group',
+      topic: 'Building Business Acumen for an AI enabled workplace',
       type: 'session'
     },
     // {
@@ -128,38 +140,32 @@ export default function Agenda() {
     //   type: 'session'
     // },
     {
-      activity: 'Power Talk',
-      speakers: 'Aravind Warrier',
-      topic: '',
-      type: 'session'
-    },
-    {
       activity: 'Panel Discussion',
-      speakers: '• Sujith Unni\n• Jilu Joseph \n• Devika Chandrasekharan\n• Sunil Balakrishnan',
+      speakers: '• Sujith Unni\nConsultant,SS Consultant\n• Jilu Joseph\nCEO,Webandcradts\n• Devika Chandrasekharan\nFounder,Fuselage Innovations Pvt Ltd\n• Sunil Balakrishnan\nChief Values Officer(CVO) | Global Head,UST Global',
       topic: 'Balancing innovation, cost, and culture',
       type: 'panel'
     },
     {
       activity: 'Mentalist',
-      speakers: '• Abhijith',
-      topic: '“Perception vs Reality in Workplace Communication” Tie performance to: Bias in decision making Trust & influence Reading people beyond resumes',
+      speakers: '• Abhijith\nMentalist',
+      topic: 'Perception vs Reality in Workplace Communication',
       type: 'session'
     },
     {
       activity: 'Power Talk',
-      speakers: 'Binod Krishna',
+      speakers: 'Binod Krishna\nHead of HR, Impaqtive',
       topic: 'Next-Gen HR: Where Technology Meets Empathy',
       type: 'session'
     },
     {
       activity: 'Power Talk',
-      speakers: 'Shameel',
+      speakers: 'Adv. Mohammed Shameel\nFounder, Advocate, Dictumnet',
       topic: 'Legal Readiness of HR: from Compliance to confidence',
       type: 'session'
     },
     {
       activity: 'Panel Discussion',
-      speakers: '• Jithin Chakkalakkal\n• Ajish MJ\n• Sreeni S Warrier\n• Jeswin Jose\n • Rasha kutty',
+      speakers: '• Jithin Chakkalakkal\nSenior Manager - HR, Reflections Info Systems\n• Ajish MJ\nVice President People and Culture, NeST Digital\n• Sreeni S Warrier\nFounder & Chief Architect, Mind Architects\n• Jeswin Jose\nSenior Associate Director HR, Big4\n•Rasha kutty\nCo-Founder, EmpathyUniversity',
       topic: 'Moving from transactional to transformational HR',
       type: 'panel'
     },
@@ -397,7 +403,7 @@ export default function Agenda() {
                 {/* Add special containers after Inaugural Function */}
                 {item.activity === 'Inaugural Function' && (
                   <>
-                    <motion.div
+                    {/* <motion.div
                       className="bg-black/40 backdrop-blur-sm border border-white/20 rounded-lg p-3 sm:p-4 my-6 sm:my-8 text-center cursor-pointer group relative overflow-hidden"
                       initial={{ opacity: 0, scale: 0.9 }}
                       whileInView={{ opacity: 1, scale: 1 }}
@@ -412,7 +418,6 @@ export default function Agenda() {
                         transition: { duration: 0.1 }
                       }}
                     >
-                      {/* Animated border effect */}
                       <div
                         className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg pointer-events-none"
                         style={{
@@ -442,10 +447,10 @@ export default function Agenda() {
                           Felicitation to Great Place To Work Certified Organizations
                         </h3>
                       </div>
-                    </motion.div>
+                    </motion.div> */}
                   </>
                 )}
-                {item.topic === 'Learning Rewired: The Skill-Shelf-Life Crisis Management' && (
+                {item.topic === 'Balancing innovation, cost, and culture' && (
                   <>
                     <motion.div
                       className="bg-black/40 backdrop-blur-sm border border-white/20 rounded-lg p-3 sm:p-4 my-6 sm:my-8 text-center cursor-pointer group relative overflow-hidden"
@@ -462,7 +467,6 @@ export default function Agenda() {
                         transition: { duration: 0.1 }
                       }}
                     >
-                      {/* Animated border effect */}
                       <div
                         className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg pointer-events-none"
                         style={{
@@ -488,7 +492,7 @@ export default function Agenda() {
                             color: '#ffffff !important'
                           }}
                         >
-                          Lunch at 1:15 pm
+                          Lunch at 1 PM
                         </h3>
                       </div>
                     </motion.div>
@@ -543,7 +547,7 @@ export default function Agenda() {
                 </h3>
               </div>
             </motion.div>
-            <motion.div
+            {/* <motion.div
               className="bg-black/40 backdrop-blur-sm border border-white/20 rounded-lg p-3 sm:p-4 mb-6 sm:mb-8 text-center cursor-pointer group relative overflow-hidden"
               initial={{ opacity: 0, scale: 0.9 }}
               whileInView={{ opacity: 1, scale: 1 }}
@@ -558,7 +562,6 @@ export default function Agenda() {
                 transition: { duration: 0.1 }
               }}
             >
-              {/* Animated border effect */}
               <div
                 className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg pointer-events-none"
                 style={{
@@ -588,7 +591,7 @@ export default function Agenda() {
                   Music fiesta by MuBand
                 </h3>
               </div>
-            </motion.div>
+            </motion.div> */}
           </div>
         </div>
 
@@ -634,7 +637,7 @@ export default function Agenda() {
               </div>
             </motion.div> */}
 
-            <Link href="https://konfhub.com/hrevolveelevate26">
+            <Link href="https://makemypass.com/event/elevate26-hr-conclave-kochi-edition">
               <button className="w-full bg-transparent text-white hover:scale-[1.02] transition-all duration-300">
                 <div style={{ display: 'flex', width: '100%', height: '80px', maxWidth: '100%', maxHeight: '100%', placeItems: 'center', margin: '0px', padding: '0px', listStyleType: 'none', opacity: 1, overflow: 'hidden' }}>
                   <ul

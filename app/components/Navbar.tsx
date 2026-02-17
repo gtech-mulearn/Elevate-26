@@ -40,7 +40,7 @@ export default function Navbar() {
       <nav className="w-full max-w-6xl flex items-center justify-between px-4 md:px-8">
         <div>
           <Link href="/" className="text-gray-800 text-xl sm:text-2xl font-bold">
-            <Image src="/logo.png" alt="Logo" width={120} height={120} className="sm:w-[150px] sm:h-[30px]" />
+            <Image src="/logo.png" alt="Logo" width={120} height={120} className="sm:w-[150px] sm:h-[40px]" />
           </Link>
         </div>
 
@@ -59,7 +59,10 @@ export default function Navbar() {
                     e.preventDefault();
                     handleClick(item.href);
                   }}
-                  className={`text-gray-700 font-medium text-base transition-all duration-300 hover:text-cyan-600 ${activeSection === item.href ? 'text-cyan-600' : ''
+                  className={`relative text-gray-700 font-medium text-base transition-all duration-300 hover:text-black pb-1 
+                    after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 
+                    after:bg-black after:transition-all after:duration-300 
+                    hover:after:w-full ${activeSection === item.href ? 'text-black after:w-full' : ''
                     }`}
                 >
                   {item.name}
@@ -74,7 +77,7 @@ export default function Navbar() {
           {/* Desktop CTA with SOLD OUT marquee floating in front */}
           <div className="hidden lg:block relative">
             {/* Buy Button - Enabled */}
-            <Link href="https://konfhub.com/hrevolveelevate26">
+            <Link href="https://makemypass.com/event/elevate26-hr-conclave-kochi-edition">
               <button className="group bg-gradient-to-r from-cyan-400 to-green-500 text-white px-4 py-2 rounded-full text-md font-bold shadow-lg transition-all duration-300 hover:shadow-xl hover:scale-105 flex items-center gap-3">
                 Buy Ticket
                 <svg
@@ -172,7 +175,7 @@ export default function Navbar() {
             <div className="mt-6 pt-4 border-t border-cyan-400/30">
               <div className="relative inline-block w-full">
                 {/* Mobile Buy Button - Enabled */}
-                <Link href="https://konfhub.com/hrevolveelevate26">
+                <Link href="https://makemypass.com/event/elevate26-hr-conclave-kochi-edition">
                   <button className="w-full bg-gradient-to-r from-cyan-400 to-green-500 text-white py-3 px-4 rounded-full text-lg font-bold shadow-lg transition-all duration-300 hover:shadow-xl hover:scale-105 flex items-center justify-center gap-3">
                     Buy Ticket
                     <svg

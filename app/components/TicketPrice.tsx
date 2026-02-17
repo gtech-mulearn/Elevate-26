@@ -91,7 +91,7 @@ const TicketPrice = () => {
               <div className="flex items-start justify-between mb-6">
                 <div>
                   <div className="flex items-baseline gap-2 mb-1">
-                    <h2 className="text-4xl font-semibold text-white/60">₹299</h2>
+                    <h2 className="text-4xl font-semibold text-white/60">₹499</h2>
                   </div>
                 </div>
                 <div className="px-3 py-1.5">
@@ -128,7 +128,7 @@ const TicketPrice = () => {
               <div className="flex items-start justify-between mb-6">
                 <div>
                   <div className="flex items-baseline gap-2 mb-1">
-                    <h2 className="text-4xl font-semibold text-white/60">₹299</h2>
+                    <h2 className="text-4xl font-semibold text-white/60">₹499</h2>
                   </div>
                 </div>
                 <div className="px-3 py-1.5">
@@ -176,7 +176,7 @@ const TicketPrice = () => {
                         letterSpacing: '-0.02em'
                       }}
                     >
-                      ₹299
+                      ₹499
                     </h2>
                   </div>
                 </div>
@@ -203,7 +203,7 @@ const TicketPrice = () => {
                   'Insights from top HR practitioners',
                   'Exposure to emerging HR Tech & trends',
                   'Ready-to-use frameworks & best practices',
-                  'Exclusive ELEVATE’25 goodies'
+                  'Exclusive ELEVATE’26 goodies'
                 ].map((feature, index) => (
                   <div key={index} className="flex items-center gap-2 sm:gap-3">
                     <div className="flex-shrink-0">
@@ -239,7 +239,7 @@ const TicketPrice = () => {
 
               {/* Buy Button - Enabled */}
               <div className="text-center">
-                <Link href="https://konfhub.com/hrevolveelevate26">
+                <Link href="https://makemypass.com/event/elevate26-hr-conclave-kochi-edition">
                   <button
                     className="px-4 sm:px-6 py-2.5 sm:py-3 bg-gradient-to-r from-cyan-400 to-green-500 text-white font-semibold rounded-full border border-transparent shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 flex items-center gap-2 mx-auto"
                     style={{

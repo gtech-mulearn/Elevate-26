@@ -15,27 +15,27 @@ export default function Hero() {
       >
 
         {/* Federal Bank Logo and Presents */}
-        {/* <motion.div
+        <motion.div
           className="mb-1 flex flex-col items-center"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.1, ease: "easeOut" }}
         >
-          <div className="mb-0.5 -mt-4 md:-mt-10">
+          <div className="mb-0.5 -mt-2">
             <Image
-              src="/Federal_Bank.png"
+              src="/Lead_logo.png"
               alt="Federal Bank"
               width={112}
               height={112}
-              className="w-20 h-20 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-42 lg:h-42 object-contain drop-shadow-xl"
+              className="w-22 h-22 sm:w-22 sm:h-22 md:w-26 md:h-26 lg:w-46 lg:h-46 object-contain drop-shadow-xl"
             />
           </div>
           <h2 className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-700/90 font-medium tracking-wider -mt-4 md:-mt-10">
             Presents
           </h2>
-        </motion.div> */}
+        </motion.div>
         <motion.h2
-          className="mt-20 text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-gray-800/90 leading-tight mb-1 sm:mb-2 tracking-wider"
+          className="mt-14 text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-gray-800/90 leading-tight mb-1 sm:mb-2 tracking-wider"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
@@ -65,17 +65,17 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.4, ease: "easeOut" }}
         >
-          REIMAGINING FUTURE OF WORK
+          SHAPING THE FUTURE
         </motion.h2>
 
-        {/* <motion.h3
-          className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl font-semibold text-gray-800/90 mb-4 sm:mb-6 md:mb-8 leading-tight tracking-wide"
+        <motion.h3
+          className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl font-semibold text-gray-800 mb-4 sm:mb-6 md:mb-8 leading-tight tracking-wide"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.45, ease: "easeOut" }}
         >
-          LEADING THROUGH THE HUMAN-AI NEXUS
-        </motion.h3> */}
+          DESIGNING THE INTELLIGENT, HUMAN-CENTERED ENTERPRISE
+        </motion.h3>
         <motion.div
           className="mb-3 sm:mb-5 md:mb-7"
           initial={{ opacity: 0, y: 20 }}
@@ -152,13 +152,13 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
         >
-          Elevate&apos;25 is a one-day conclave for People Leaders organized by HR Evolve, on 20th November 2025 at Technopark.
-          As organizations stand at the threshold of intelligent transformation, leadership itself is being redefined.
-          Elevate 2025, &apos;Shaping the Future: Leading through the Human&ndash;AI Nexus&apos; explores how People Leaders can architect
-          agile, ethical, and purpose-driven workplaces in an era of intelligent machines. The conclave brings together thinkers,
-          technologists, and HR visionaries to discuss how human insight, emotional intelligence, and adaptive learning can
-          amplify &mdash; not compete with &mdash; AI. Together, we will decode how to reimagine work, redeploy talent, and design
-          governance frameworks that ensure technology serves humanity, not the other way around.
+          Artificial Intelligence, digital acceleration, and workforce shifts have already entered the workplace, requiring HR to redesign roles and talent strategies accordingly. Balances technology integration with human judgment—exactly where HR is expected to lead. The critical question for organizations is no longer whether to change — but how to generate value through that change.
+          HR is uniquely positioned to answer this question by:<br />
+          •	Translating technology into productivity<br />
+          •	Building cultures that sustain innovation<br />
+          •	Designing workforce models aligned to economic realities<br />
+          •	Ensuring trust, fairness, and readiness in transformation<br />
+          Elevate 2026 explores how HR must evolve into a business-shaping function — integrating human judgment, technological capability, and organizational design to create measurable outcomes.
         </motion.p>
 
         {/* Join Us On */}
@@ -198,9 +198,9 @@ export default function Hero() {
         {/* CTA Button with floating SOLD OUT marquee */}
         <div className="relative inline-block">
           {/* Register Button - Enabled */}
-          <Link href="https://konfhub.com/hrevolveelevate26">
+          <Link href="https://makemypass.com/event/elevate26-hr-conclave-kochi-edition">
             <motion.button
-              className="group bg-gradient-to-r from-cyan-400 to-green-500 text-white px-6 sm:px-8 md:px-10 py-3 sm:py-4 md:py-5 rounded-full text-lg sm:text-xl font-bold shadow-lg transition-all duration-300 hover:shadow-xl hover:scale-105 flex items-center gap-2 sm:gap-3 mx-auto"
+              className="mb-8 group bg-gradient-to-r from-cyan-400 to-green-500 text-white px-6 sm:px-8 md:px-10 py-3 sm:py-4 md:py-5 rounded-full text-lg sm:text-xl font-bold shadow-lg transition-all duration-300 hover:shadow-xl hover:scale-105 flex items-center gap-2 sm:gap-3 mx-auto"
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{
