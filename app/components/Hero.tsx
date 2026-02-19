@@ -60,14 +60,14 @@ export default function Hero() {
           REIMAGINING FUTURE OF WORK
         </motion.h2>
 
-        <motion.h3
+        {/* <motion.h3
           className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl font-semibold text-gray-800 mb-4 sm:mb-6 md:mb-8 leading-tight tracking-wide"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.45, ease: "easeOut" }}
         >
           DESIGNING THE INTELLIGENT, HUMAN-CENTERED ENTERPRISE
-        </motion.h3>
+        </motion.h3> */}
         <motion.h2
           className="mt-4 text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-gray-800/90 leading-tight mb-1 sm:mb-2 tracking-wider"
           initial={{ opacity: 0, y: 30 }}

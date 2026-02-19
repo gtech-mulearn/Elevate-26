@@ -98,7 +98,7 @@ export default function Agenda() {
     },
     {
       activity: 'Inaugural Function',
-      speakers: '• Sushant\nCEO, Infoparks Kerala & Cyberpark Kozhikode\n• Rajesh Nair\nPartner, EY\n• Sujas Ali\nFounder ,Aabasoft\n• Sunil Balakrishnan\nChief Values Officer(CVO) | Global Head,\nUST GLOBAL\n• Dr. Thomas George K\nChairman, LEAD College',
+      speakers: '• Sushant\nCEO, Infoparks Kerala & Cyberpark Kozhikode\n• Sujas Ali\nFounder ,Aabasoft\n• Sunil Balakrishnan\nChief Values Officer(CVO) | Global Head,\nUST GLOBAL\n• Dr. Thomas George K\nChairman, LEAD College',
       type: 'admin'
     },
     // {
@@ -107,12 +107,12 @@ export default function Agenda() {
     //   topic: 'Shaping the Future: Leading through the Human–AI Nexus',
     //   type: 'keynote'
     // },
-    {
-      activity: 'Power Talk',
-      speakers: 'Sreekanth Arimanithaya\nChief Executive Officer, Xarpie Labs',
-      topic: 'Culture Beyond Policies',
-      type: 'session'
-    },
+    // {
+    //   activity: 'Power Talk',
+    //   speakers: 'Sreekanth Arimanithaya\nChief Executive Officer, Xarpie Labs',
+    //   topic: 'Culture Beyond Policies',
+    //   type: 'session'
+    // },
     {
       activity: 'Power Talk',
       speakers: 'Sam R Thomas\nAssociate Director EY GDS India',
