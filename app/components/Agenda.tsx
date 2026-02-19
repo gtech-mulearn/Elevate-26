@@ -169,7 +169,7 @@ export default function Agenda() {
     },
     {
       activity: 'Panel Discussion',
-      speakers: '• Jithin Chakkalakkal\nSenior Manager - HR, Reflections Info Systems\n• Ajish MJ\nVice President People and Culture, NeST Digital\n• Sreeni S Warrier\nFounder & Chief Architect, Mind Architects\n• Jeswin Jose\nSenior Associate Director HR, Big4\n•Rasha kutty\nCo-Founder, EmpathyUniversity',
+      speakers: '• Jithin Chakkalakkal\nHead of people and culture, Reflections Info Systems\n• Ajish MJ\nVice President People and Culture, NeST Digital\n• Sreeni S Warrier\nFounder & Chief Architect, Mind Architects\n• Jeswin Jose\nSenior Associate Director HR, Big4\n•Rasha kutty\nCo-Founder, EmpathyUniversity',
       topic: 'Moving from Transactional to Transformational HR',
       type: 'panel'
     },
